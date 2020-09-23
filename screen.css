@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  background-color: #e9ebee;
+}
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: grid;
+  min-height: 80px;
+  grid-auto-flow: column;
+  background-color: #00000017;
+  grid-gap: 1.5em;
+  padding: 0 40px;
+ 
+}
+
+.logo {
+  display: grid;
+  padding-bottom: 15px;
+  justify-content: start;
+  align-content: center;
+
+}
+/*search box*/
+form.search-box input[type=text] {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 15px;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.search-box button {
+  float: left;
+  margin-top: 20px;
+  width: 20%;
+  padding: 10px;
+  background: #FF724C;
+  color: white;
+  font-size: 14px;
+  border:none;
+border-radius: 15px;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.search-box button:hover {
+  background: #FF724C;
+}
+
+form.search-box::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+.links {
+  display: grid;
+  justify-content: right;
+  align-content: center;
+  grid-auto-flow: column;
+  grid-gap: 3.5em;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: #FF724C;
+}
+
+
+h6{
+	font-size: 18px;
+	margin-left: 48px;
+	
+}
+
+.container{
+	display: grid;
+	justify-content: center;
+	max-width: 1250px;
+	height: 150px;
+	margin-left: 48px;
+	border: none;
+  background-color: white;
+
+
+}
+ .li{
+
+  display: grid;
+  justify-content: center;
+  grid-auto-flow: column;
+  padding-top: 25px;
+  margin-right: 22px;
+  grid-gap: 10.5em;
+  font-family: "Open Sans", sans-serif;
+}
+ h3{
+ 	padding-top: 30px;
+ 	text-align: center;
+ 	font-size: 24px;
+ }
+ .container1{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 120px 300px;
+  max-width: 1240px;
+  height: 300px;
+  margin-left: 48px;
+
+  grid-gap: 80px;
+  background-color: white;
+
+}
+
+.container1 > div {
+ margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  box-shadow: 5px 10px #888888;
+  padding: 5px 5px;
+  font-size: 14px;
+}
+
+h2{
+  padding-top: 20px;
+  font-size: 20px;
+  margin-left: 40px;
+}
